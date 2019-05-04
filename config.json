@@ -1,0 +1,58 @@
+{
+"//": "Configuration file for Gible Discord bot.",
+
+
+"//": "Server information",
+"default_channel": "general-chat",
+"welcome_channel": "general",
+"//": "Language you want for Gible.",
+"//": "fr, en",
+"bot-language": "en",
+"pokemon-language": "en",
+
+"//": "Bot token ID, needed for authentication.",
+"//": "This is found on the app page when you click to reveal the bot user's token",
+"bot_token": "",
+
+"//": "Default bot prefix. Used if server has not set one.",
+"default_prefix":"?",
+
+"//": "Define Gible's master id (that's you).",
+"//": "Gible will only take admin commands from the user with this id",
+"master": "",
+
+"//": "Limit egg assumed hatches to certain egg levels.",
+"allow_assume": {"EX": "True", "5": "False", "4": "False", "3": "False", "2": "False", "1": "False"},
+
+"//": "Define your server's emoji strings here.",
+
+"//": "Emoji for team assignments",
+"team_dict": {"mystic": ":articuno:", "valor": ":moltres:", "instinct": ":zapdos:", "harmony": ":osha:"},
+
+"//": "Emoji for raid organization",
+"omw_id": ":omw:",
+"here_id": ":here:",
+
+"//": "Emoji for Pokemon types.",
+"type_id_dict": {
+    "normal"   : "<:normal:417754329689227265>",
+    "fire"     : "<:fire1:417754279529545729>",
+    "water"    : "<:water:417754330020708362>",
+    "electric" : "<:electric:417754242418212865>",
+    "grass"    : "<:grass:417754279605043213>",
+    "ice"      : "<:ice:417754329370460161>",
+    "fighting" : "<:fighting:417754279533608970>",
+    "poison"   : "<:poison:417754329802604544>",
+    "ground"   : "<:ground:417754279340933132>",
+    "flying"   : "<:flying:417754279491928064>",
+    "psychic"  : "<:psychic:417754329710198814>",
+    "bug"      : "<:bug1:417754197740748831>",
+    "rock"     : "<:rock:417754329769050122>",
+    "ghost"    : "<:ghost1:417754279361773569>",
+    "dragon"   : "<:dragon1:417754230938402817>",
+    "dark"     : "<:dark:417754217260908564>",
+    "steel"    : "<:steel:417754329622118412>",
+    "fairy"    : "<:fairy:417754254749597716>"
+}
+
+}
